@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Roboto+Mono');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Coiny', cursive;
+}
+.wrapper{
+    padding:100px 30%;
+}
+img{
+    width:40%;
+}
+@media(min-width:921px){
+    body{
+        background-color: yellowgreen;
+    }
+    .friends > .friends-col{
+        width:33.3333%;
+        float: left;
+    }
+}
